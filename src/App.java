@@ -8,7 +8,7 @@ public class App {
         
         String estudiantes []={"Brayan Gomez", "Juancho"};
         String consulta=JOptionPane.showInputDialog(
-            "ingresa el nombre del estudiante para ver su nota del primer semestre"
+            "ingresa el nombre del estudiante para ver su nota del primer semestre 2020-2"
             );
 
             Busqueda(consulta, estudiantes);
