@@ -17,7 +17,7 @@ public class App {
 
         
     }
-
+//esto sirve para saber si existe un valor en un arreglo
     static void Busqueda(String nombre , String [] arregloNombres){
         Boolean valor=Arrays.asList(arregloNombres).contains(nombre);
         if (valor) {
