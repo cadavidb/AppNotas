@@ -12,10 +12,6 @@ public class App {
             );
 
             Busqueda(consulta, estudiantes);
-      
-
-
-        
     }
 
     static void Busqueda(String nombre , String [] arregloNombres){
