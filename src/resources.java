@@ -8,7 +8,7 @@ public class resources {
            //se pregunta si el usuario es estudiante o docente
            System.out.println("Bienvenido al Colegio Dennis Ritchie \n" +
            "Eres ? \n1). Estudiante \n2). Docente ");
-           int categoria_elegida=entrada().nextInt();
+           byte categoria_elegida=entrada().nextByte();
            //la eleccion la manejamos en una funcion , ve abajo por favor
            eleccion(categoria_elegida);}
 
@@ -48,7 +48,7 @@ static void eleccion(int number){
           }else{
                  System.out.println("mmm te has equivocado deseas? \n" 
                  + "1.) intentarlo de nuevo \n2.) salir");
-                 int intento=entrada().nextInt();
+                 byte intento=entrada().nextByte();
               if (intento!=1) {
                  break;
      }   
